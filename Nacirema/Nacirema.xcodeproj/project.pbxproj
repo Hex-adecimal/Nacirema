@@ -12,6 +12,8 @@
 		4427775E2B037F3600177B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4427775D2B037F3600177B0D /* Assets.xcassets */; };
 		442777612B037F3600177B0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442777602B037F3600177B0D /* Preview Assets.xcassets */; };
 		442777682B037F7600177B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442777672B037F7600177B0D /* ViewController.swift */; };
+		445549722B08C08B006D685E /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445549712B08C08B006D685E /* ModalView.swift */; };
+		445549742B0960A3006D685E /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445549732B0960A3006D685E /* Songs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		4427775D2B037F3600177B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442777602B037F3600177B0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		442777672B037F7600177B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		445549712B08C08B006D685E /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		445549732B0960A3006D685E /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				442777592B037F3200177B0D /* NaciremaApp.swift */,
-				4427775B2B037F3200177B0D /* ContentView.swift */,
-				442777672B037F7600177B0D /* ViewController.swift */,
+				445549752B0960B8006D685E /* Views */,
+				445549762B09612F006D685E /* Model */,
 				4427775D2B037F3600177B0D /* Assets.xcassets */,
 				4427775F2B037F3600177B0D /* Preview Content */,
 			);
@@ -68,6 +72,24 @@
 				442777602B037F3600177B0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		445549752B0960B8006D685E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4427775B2B037F3200177B0D /* ContentView.swift */,
+				445549712B08C08B006D685E /* ModalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		445549762B09612F006D685E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				442777672B037F7600177B0D /* ViewController.swift */,
+				445549732B0960A3006D685E /* Songs.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445549742B0960A3006D685E /* Songs.swift in Sources */,
 				442777682B037F7600177B0D /* ViewController.swift in Sources */,
 				4427775C2B037F3200177B0D /* ContentView.swift in Sources */,
+				445549722B08C08B006D685E /* ModalView.swift in Sources */,
 				4427775A2B037F3200177B0D /* NaciremaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
